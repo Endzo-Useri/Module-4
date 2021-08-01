@@ -79,7 +79,7 @@ section {
 .container {
     width: 620px;
     margin: 0 auto;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
 }
 
 .section-two {
