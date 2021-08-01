@@ -1,0 +1,9 @@
+body {
+    background: ghostwhite;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 570px;
+}
