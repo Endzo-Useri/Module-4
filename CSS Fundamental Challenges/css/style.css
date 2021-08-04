@@ -56,14 +56,19 @@ a:focus {
     font-size: 16px;
 }
 
+header,
+section {
+    padding: 100px 0;
+}
+
 header {
-    background-color: #d7d7d7;
+    background-color: #D7D7D7;
 }
 
 .about-me {
-    background-color: #ffeaea;
+    background-color: #FFEAEA;
 }
 
 .articles {
-    background-color: #eaf9ff;
+    background-color: #EAF9FF;
 }
