@@ -55,3 +55,15 @@ a:focus {
 .small-text {
     font-size: 16px;
 }
+
+header {
+    background-color: #d7d7d7;
+}
+
+.about-me {
+    background-color: #ffeaea;
+}
+
+.articles {
+    background-color: #eaf9ff;
+}
