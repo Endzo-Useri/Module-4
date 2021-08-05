@@ -64,6 +64,12 @@ a:focus {
     margin-top: 5px;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #99D930;
+}
+
 header,
 section {
     padding: 100px 0;
