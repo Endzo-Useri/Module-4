@@ -61,7 +61,12 @@ section {
     padding: 100px 0;
 }
 
-header {
+.inverse {
+    background: #252525;
+    color: #fff;
+}
+
+/* header {
     background-color: #D7D7D7;
 }
 
@@ -71,4 +76,4 @@ header {
 
 .articles {
     background-color: #EAF9FF;
-}
+} */
