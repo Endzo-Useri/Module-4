@@ -11,10 +11,10 @@ body {
     margin: 0 auto;
 }
 
-.bold-text {
+/* .bold-text {
     font-weight: 900;
     display: block;
-}
+} */
 
 h1 .bold-text {
     font-size: 80px;
@@ -47,6 +47,25 @@ h3 {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 0;
+}
+
+.bold-text {
+    display: block;
+}
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text {
+    font-size: 60px;
+}
+
+.bold-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
 }
 
 p {
