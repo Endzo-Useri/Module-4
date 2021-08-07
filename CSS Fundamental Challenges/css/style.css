@@ -97,6 +97,11 @@ section {
     color: #fff;
 }
 
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background:  #fff;
+}
+
 .btn {
     display: inline-block;
     color: #252525;
