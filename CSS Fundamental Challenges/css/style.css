@@ -100,6 +100,7 @@ section {
 .inverse .btn:hover,
 .inverse .btn:focus {
     background:  #fff;
+    color: #252525;
 }
 
 .btn {
