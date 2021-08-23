@@ -19,6 +19,12 @@ body {
   padding: 50px;
 }
 
+h1,
+p {
+  /* This is how to turn off the margin tops */
+  margin-top: 0;
+}
+
 h1 {
   font-size: 24px;
 }
@@ -29,9 +35,5 @@ p {
 
 .links {
   margin-top: 45px;
-}
-
-h1,
-p {
-  margin-top: 0;
+  margin-bottom: 0;
 }
