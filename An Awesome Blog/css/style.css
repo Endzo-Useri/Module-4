@@ -17,14 +17,23 @@ h2 {
   margin: 0 0 10px;
 }
 
-a {
+img {
+  height: 200px;
+  width: 450px;
+}
+
+.blog-para a {
   color: #ff8000;
   font-weight: bold;
 }
 
-a:hover,
-a:focus {
+.blog-para a:hover,
+.blog-para a:focus {
   color: #104c90;
+}
+
+.blog-para a:active {
+  color: #2e7ad3;
 }
 
 .blog-post {
@@ -34,22 +43,26 @@ a:focus {
   margin: 0 auto;
 }
 
-.read-more {
+.read-more a {
   margin: 0;
-  width: 150px;
   padding: 8px 20px;
   text-align: center;
-  background: #104c90;
-  border: #104c90;
+  background: #2e7ad3;
+  color: #fff;
+  font-weight: bold;
+  border: #2e7ad3;
   border-radius: 50px;
 }
 
 .read-more a:hover,
 .read-more a:focus {
+  padding: 10px 25px;
+  background: #104c90;
   color: #fff;
 }
 
-img {
-  height: 200px;
-  width: 450px;
+.read-more a:active {
+  background: #ff8000;
+  color: #333;
+  padding: 6px 15px;
 }
