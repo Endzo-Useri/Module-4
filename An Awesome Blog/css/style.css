@@ -1,6 +1,7 @@
 /* First redo */
 body {
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -16,21 +17,30 @@ h2 {
   margin: 0 0 10px;
 }
 
-.blog-post {
-  background: #f1f1f1;
-  width: 500px;
-  margin: 0 auto;
-}
-
 a {
   color: #ff8000;
   font-weight: bold;
 }
 
-.blog-post,
+a:hover,
+a:focus {
+  color: #104c90;
+}
+
+.blog-post {
+  background: #f1f1f1;
+  width: 450px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.read-more {
+  margin: 0;
+}
+
 img {
   height: 200px;
-  width: 500px;
+  width: 450px;
 }
 
 /* body {
