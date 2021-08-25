@@ -1,4 +1,26 @@
+/* First redo */
 body {
+  margin: 0;
+  /* text-align: center; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.blog-post {
+  background: #f1f1f1;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.blog-post,
+img {
+  height: 200px;
+  width: 600px;
+}
+
+/* body {
     font-size: 16px;
 }
 
@@ -34,4 +56,4 @@ a:focus {
 
 .read-more {
     margin: 0; 
-}
+} */
