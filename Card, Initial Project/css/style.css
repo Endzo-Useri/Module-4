@@ -1,6 +1,6 @@
 /* First redo */
 body {
-  /* background: red; */
+  background: chocolate;
 }
 
 .card {
@@ -35,5 +35,6 @@ p {
 
 .links {
   margin-top: 45px;
+  /* This is how to turn off the margin bottom */
   margin-bottom: 0;
 }
