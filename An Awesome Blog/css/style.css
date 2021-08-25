@@ -33,12 +33,25 @@ header li {
 
 header li a {
   background: #ff8000;
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 20px;
-  border: #ff8000;
+  border: 3px solid #ff8000;
   border-radius: 50px;
+}
+
+li a:hover,
+li a:focus {
+  background: #104c90;
+  color: #fff;
+  padding: 10px 25px;
+}
+
+li a:active {
+  background: #2e7ad3;
+  color: #ff8000;
+  padding: 6px 15px;
 }
 
 h1 {
