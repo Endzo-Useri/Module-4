@@ -1,6 +1,6 @@
 /* First redo */
 body {
-  background: chocolate;
+  background: gray;
 }
 
 .card {
@@ -44,14 +44,14 @@ p {
 }
 
 a:link {
-  color: aqua;
+  color: yellow;
 }
 
 a:hover,
 a:focus {
-  color: darkorchid;
+  color: aquamarine;
 }
 
 a:active {
-  color: fuchsia;
+  color: plum;
 }
