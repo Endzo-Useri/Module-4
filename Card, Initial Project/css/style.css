@@ -40,5 +40,18 @@ p {
 }
 
 .accent-color {
-  color: yellow;
+  color: #ffe600;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:hover,
+a:focus {
+  color: darkorchid;
+}
+
+a:active {
+  color: fuchsia;
 }
