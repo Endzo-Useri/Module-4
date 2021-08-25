@@ -38,3 +38,7 @@ p {
   /* This is how to turn off the margin bottom */
   margin-bottom: 0;
 }
+
+.accent-color {
+  color: yellow;
+}
