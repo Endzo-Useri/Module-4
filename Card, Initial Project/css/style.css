@@ -1,6 +1,7 @@
 /* First redo */
 body {
   background: gray;
+  font-family: sans-serif;
 }
 
 .card {
@@ -31,6 +32,31 @@ h1 {
 
 p {
   font-size: 18px;
+}
+
+.btns {
+  display: inline-block;
+  background: #ffe600;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 20px;
+  margin-right: 20px;
+  border: 3px solid #ffe600;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btns:hover,
+.btns:focus {
+  background: #000;
+  color: #ffe600;
+  padding: 10px 25px;
+}
+
+.btns:active {
+  background: #ffe600;
+  color: #000;
+  padding: 6px 15px;
 }
 
 .links {
