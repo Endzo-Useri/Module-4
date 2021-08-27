@@ -2,10 +2,25 @@
 body {
   background: gray;
   font-family: sans-serif;
+  height: 125vh;
+  margin-top: 150px;
+}
+
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 header * {
   display: inline-block;
+}
+
+.hero {
+  height: 100px;
+  margin-left: 50px;
 }
 
 .card {
