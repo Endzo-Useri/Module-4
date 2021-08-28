@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   height: 125vh;
   margin-top: 150px;
+  padding: 30px;
 }
 
 header {
@@ -12,14 +13,43 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 25px 5px #000;
 }
 
 header * {
-  display: inline-block;
+  display: inline;
+}
+
+.nav-links {
+  margin: 40px;
+}
+
+.nav-bar {
+  background: red;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.nav-bar:hover,
+.nav-bar:focus {
+  background: aqua;
+  color: #000;
+}
+
+.nav-bar:active {
+  background: blue;
+  color: #000;
 }
 
 .hero {
-  height: 100px;
+  height: 104px;
   margin-left: 50px;
 }
 
