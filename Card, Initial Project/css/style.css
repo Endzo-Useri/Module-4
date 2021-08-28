@@ -27,7 +27,7 @@ header * {
   margin: 40px;
 }
 
-.nav-bar {
+.nav-btns {
   background: red;
   color: #000;
   text-decoration: none;
@@ -37,13 +37,13 @@ header * {
   border-radius: 50px;
 }
 
-.nav-bar:hover,
-.nav-bar:focus {
+.nav-btns:hover,
+.nav-btns:focus {
   background: aqua;
   color: #000;
 }
 
-.nav-bar:active {
+.nav-tnsr:active {
   background: blue;
   color: #000;
 }
