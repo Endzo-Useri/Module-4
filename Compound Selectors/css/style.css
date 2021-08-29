@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -32,9 +32,32 @@ header {
   color: #000;
 }
 
+.header {
+  border-left: 3px solid #000;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+}
+
+.cols {
+  /* border: 3px solid green; */
+  display: flexbox;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.col {
+  /* border: 3px solid fuchsia; */
+}
+
 .section-one {
   background: #000;
   color: #fff;
+}
+
+.section-two {
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
 }
 
 .section-two-link {

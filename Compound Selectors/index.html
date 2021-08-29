@@ -3,28 +3,40 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <title>Compound Selectors</title>
     </head>
     
     <body>
-        <header>
-            <h1>Compound selectors can be useful</h1>
-        </header>
+        <div class="cols">
 
-        <section class="section-one">
-            <h2>Section one title</h2>
-            <p>Netus et malesuada fames ac. <a href="#">Sed cras ornare arcu</a> dui vivamus. Elementum integer enim neque volutpat ac tincidunt vitae semper.</p>
-            <a href="#" class="btn btn-accent">contact me</a>
-            <a href="#" class="btn btn-accent">learn more about me</a>
-        </section>
+            <div class="col">
+                <header class="header">
+                    <h1>Compound selectors can be useful</h1>
+                </header>
+            </div>
 
-        <section class="section-two">
-            <h2>Section two title</h2>
-            <P>Netus et malesuada fames ac. <a href="#" class="section-two-link">Sed cras ornare arcu</a> dui vivamus. Elementum integer enim neque volutpat ac tincidunt vitae semper.</P>
-            <a href="#" class="btn btn-dark">contact me</a>
-            <a href="#" class="btn btn-dark">learn more about me</a>
-        </section>
+            <div class="col">
+                <section class="section-one">
+                    <h2>Section one title</h2>
+                    <p>Netus et malesuada fames ac. <a href="#">Sed cras ornare arcu</a> dui vivamus. Elementum integer enim neque volutpat ac tincidunt vitae semper.</p>
+                    <a href="#" class="btn btn-accent">contact me</a>
+                    <a href="#" class="btn btn-accent">learn more about me</a>
+                </section>
+            </div>    
+
+            <div class="col">
+                <section class="section-two">
+                    <h2>Section two title</h2>
+                    <P>Netus et malesuada fames ac. <a href="#" class="section-two-link">Sed cras ornare arcu</a> dui vivamus. Elementum integer enim neque volutpat ac tincidunt vitae semper.</P>
+                    <a href="#" class="btn btn-dark">contact me</a>
+                    <a href="#" class="btn btn-dark">learn more about me</a>
+                </section>
+            </div> 
+
+        </div> <!-- cols -->
     </body>
 </html>
