@@ -45,6 +45,8 @@ header {
   margin: 0 auto;
 }
 
+/* Style links */
+
 .section-one {
   background: #000;
   color: #fff;
@@ -54,6 +56,18 @@ header {
   border-right: 3px solid #000;
   border-bottom: 3px solid #000;
   border-left: 3px solid #000;
+}
+
+.section-one-link:hover,
+.section-one-link:focus,
+.section-two-link:hover,
+.section-two-link:focus {
+  color: gray;
+}
+
+.section-one-link:active,
+.section-two-link:active {
+  color: firebrick;
 }
 
 .section-two-link {
