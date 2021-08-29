@@ -70,7 +70,7 @@ header {
 
 .section-one-link:active,
 .section-two-link:active {
-  color: firebrick;
+  color: lightblue;
 }
 
 /* button styles */
