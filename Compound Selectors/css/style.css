@@ -7,12 +7,11 @@ h1,
 h2,
 p {
   margin-top: 0;
-  /* font-family: cursive; */
 }
 
 h1 {
   font-size: 24px;
-  /* font-family: cursive; */
+  text-align: center;
 }
 
 p {
@@ -21,7 +20,6 @@ p {
 
 a {
   color: #ffe600;
-  /* font-family: cursive; */
 }
 
 header,
