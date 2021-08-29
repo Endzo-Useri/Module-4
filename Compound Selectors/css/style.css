@@ -45,10 +45,6 @@ header {
   margin: 0 auto;
 }
 
-.col {
-  /* border: 3px solid fuchsia; */
-}
-
 .section-one {
   background: #000;
   color: #fff;
@@ -83,6 +79,10 @@ header {
 .btn-accent:hover {
   background: #000;
   color: #ffe600;
+}
+
+.btn-accent:active {
+  padding: 10px 25px;
 }
 
 .btn-dark {
