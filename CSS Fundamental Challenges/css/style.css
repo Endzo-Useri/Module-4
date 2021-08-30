@@ -1,4 +1,20 @@
+/* First redo */
 body {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+/* body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
@@ -9,7 +25,7 @@ body {
 .container {
     width: 570px;
     margin: 0 auto;
-}
+} */
 
 /* .bold-text {
     font-weight: 900;
@@ -24,7 +40,7 @@ h2 .bold-text {
     font-size: 60px;
 } */
 
-h1,
+/* h1,
 h2 {
     font-weight: 300;
 }
@@ -118,7 +134,7 @@ section {
 .btn:focus {
     background: #252525;
     color: #fff;
-}
+} */
 
 /* header {
     background-color: #D7D7D7;
