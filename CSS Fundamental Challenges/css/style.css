@@ -1,6 +1,7 @@
 /* First redo */
 body {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -11,7 +12,6 @@ img {
 .container {
   width: 570px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 /* body {
