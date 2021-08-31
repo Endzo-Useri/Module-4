@@ -1,5 +1,7 @@
 /* First redo */
 body {
+  background: #252525;
+  color: #fff;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 21px;
@@ -60,15 +62,16 @@ section {
 }
 
 header {
-  background-color: #d7d7d7;
+  /* background-color: #d7d7d7; */
 }
 
 .about-me {
-  background-color: #ffeaea;
+  background-color: #fff;
+  color: #252525;
 }
 
 .articles {
-  background-color: #eaf9ff;
+  /* background-color: #eaf9ff; */
 }
 
 /* button styles */
