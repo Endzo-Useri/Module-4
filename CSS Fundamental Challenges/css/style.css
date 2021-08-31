@@ -58,6 +58,20 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  color: #99d930;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: lightgray;
+}
+
+a:active {
+  color: firebrick;
+}
+
 .small-text {
   font-size: 16px;
   margin-top: 5px;
@@ -80,16 +94,24 @@ section {
 
 /* button styles */
 
-a {
-  color: #99d930;
-  font-weight: 900;
+.btn {
+  background: #99d930;
+  color: #252525;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-top: 45px;
+  text-decoration: none;
+  border: 3px solid #99d930;
+  border-radius: 50px;
 }
 
-a:hover,
-a:focus {
-  color: lightgray;
+.btn:hover,
+.btn:focus {
+  background: #252525;
+  color: #fff;
 }
 
-a:active {
-  color: firebrick;
+.btn:active {
+  background: gray;
+  color: #252525;
 }
