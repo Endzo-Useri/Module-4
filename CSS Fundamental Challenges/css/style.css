@@ -80,16 +80,16 @@ section {
 
 /* button styles */
 
-.btn {
+a {
   color: #99d930;
   font-weight: 900;
 }
 
-.btn:hover,
-.btn:focus {
+a:hover,
+a:focus {
   color: lightgray;
 }
 
-.btn:active {
+a:active {
   color: firebrick;
 }
