@@ -112,6 +112,17 @@ section {
 
 /* button styles */
 
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background: #fff;
+  color: #252525;
+}
+
+.inverse .btn:active {
+  background: gray;
+  color: #252525;
+}
+
 .btn {
   display: inline-block;
   color: #252525;
