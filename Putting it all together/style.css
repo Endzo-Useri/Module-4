@@ -81,9 +81,10 @@ section {
 }
 
 .container {
-	width: 62%;
+	width: 90%;
+	max-width: 620px;
+	border: 2px solid magenta;
   margin: 0 auto;
-  border: 2px solid magenta;
 }
 
 .section-two {
