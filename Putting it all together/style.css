@@ -6,7 +6,7 @@ body {
 }
 
 .section-one {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 ul {
@@ -48,7 +48,9 @@ a:focus {
 
 .btn {
   display: inline-block;
+	margin-right: 20px;
   padding: 10px 25px;
+	font-weight: bold;
   text-decoration: none;
 }
 
@@ -58,10 +60,17 @@ a:focus {
   border-radius: 25px;
 }
 
-.btn-accent:hover {
+.btn-accent:hover,
+.btn-accent:focus {
   color: #2e354f;
   background: #d4b44c;
   font-weight: bold;
+}
+
+.btn-accent:active {
+	background: #2e354f;
+	color: #fff;
+	border: 3px solid #fff;
 }
 
 .btn-light {
@@ -70,10 +79,17 @@ a:focus {
   border-radius: 25px;
 }
 
-.btn-light:hover {
+.btn-light:hover,
+.btn-light:focus {
   color: #fff;
   background: #999;
   font-weight: bold;
+}
+
+.btn-light:active {
+	background: #2e354f;
+	color: #fff;
+	border: 3px solid #fff;
 }
 
 /* Layout */
