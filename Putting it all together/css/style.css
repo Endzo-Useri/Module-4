@@ -12,7 +12,7 @@ strong {
 }
 
 img {
-  width: 620px;
+  width: 100%;
 }
 
 /* Typography */
@@ -81,9 +81,9 @@ section {
 }
 
 .container {
-  width: 620px;
+	width: 62%;
   margin: 0 auto;
-  /* border: 2px solid magenta; */
+  border: 2px solid magenta;
 }
 
 .section-two {
