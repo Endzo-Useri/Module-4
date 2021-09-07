@@ -83,7 +83,6 @@ section {
 .container {
 	width: 90%;
 	max-width: 620px;
-	border: 2px solid magenta;
   margin: 0 auto;
 }
 
